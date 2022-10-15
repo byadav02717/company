@@ -1,0 +1,52 @@
+<!-- <div class="app-wrapper">
+  <div clas="tab-menu">
+    Tab menu
+  </div>
+  <div class="content-section">
+    Content section
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="footer-section">
+    Footer
+  </div>
+
+</div> -->
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-3">
+        <div class="logo">
+          <img src="../assets/logo1.png" width="53" height="50" alt = "Logo">
+        </div>
+      </div>
+      <div class="col-md-9 col-sm-9 col-9 text-right">
+        <div class="menu_icon" (click)="openMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu" [(class.menuClass)]="menuVariable">
+          <ul>
+            
+            <li><a routerLink="/home" >Home</a></li>
+            <li><a routerLink="/about" >About</a></li>
+            <li><a routerLink="/contact" >Contact</a></li>
+          
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<body>
+  <div>
+    
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
+</body>
+
+    

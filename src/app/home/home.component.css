@@ -1,0 +1,32 @@
+.banner{
+    background-image: url('https://i.picsum.photos/id/879/1920/1080.jpg?hmac=3Iwa4qgkqdajMukUN7Xm09t6fFBIrbCELWQlnDmEEbM');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    top: 40%;
+    left: 13%;
+    position: absolute;
+    
+}
+.content h1
+{
+    color: rgb(255, 230, 8);
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    
+}
+.content a{
+    text-decoration: none;
+    background-color: #fff;
+    color: green;
+    padding: 20px 20px;
+    border-radius: 7px;
+}
+.content a:hover{
+    background-color: rgb(158, 214, 158);
+    color: black;
+    transition: 0.4s ease-in-out;
+}
